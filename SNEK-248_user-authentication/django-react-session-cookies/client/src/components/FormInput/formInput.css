@@ -1,0 +1,37 @@
+.formInputContainer {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  background-color: #fff;
+}
+
+input {
+  padding: 8px;
+  margin: 10px 0px;
+  border-radius: 5px;
+  border: 1px solid #333;
+}
+
+label {
+  font-size: 1rem;
+  color: #333;
+  background-color: #fff;
+  font-family: monospace;
+  font-weight: bold;
+  margin-top: 16px;
+}
+
+.formErrorMsg {
+  font-size: 12px;
+  padding: 3px;
+  color: red;
+  display: none;
+}
+
+input:invalid[focused="true"] {
+  border: 1px solid red;
+}
+
+input:invalid[focused="true"] ~ .formErrorMsg {
+  display: block;
+}

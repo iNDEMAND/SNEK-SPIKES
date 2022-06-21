@@ -1,0 +1,35 @@
+:root {
+  --primary-color: #dcff7d;
+  --secondary-color: #a07dff;
+  --accent-color: #7dffc2;
+
+  --bg-color-dk: rgb(34, 35, 53);
+  --bg-color-dk-shade: #2a2e35;
+  --bg-color-dk-accent: #b2becd;
+
+  --bg-color-lt: #f4f5f7;
+
+  --text-color-dk: #091e42;
+  --text-color-lt: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Cutive Mono", monospace;
+  background-color: var(--bg-color-lt);
+  color: var(--text-color-dk);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: monospace;
+}

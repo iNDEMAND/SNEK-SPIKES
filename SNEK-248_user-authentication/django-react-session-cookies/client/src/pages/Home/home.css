@@ -1,0 +1,26 @@
+#welcomeMsg {
+  margin: 18px;
+  background-color: var(--bg-color-dk);
+  width: 400px;
+  height: 100px;
+  padding: 24px;
+  text-align: center;
+  color: var(--text-color-lt);
+}
+
+#homeContainer button {
+  background-color: var(--secondary-color);
+  color: var(--text-color-lt);
+  border: none;
+  padding: 8px;
+  border-radius: 3px;
+  width: 100px;
+  cursor: pointer;
+}
+
+#loggedInMsg {
+  background-color: var(--accent-color);
+  color: var(--bg-color-dk);
+  width: fit-content;
+  padding: 4px;
+}

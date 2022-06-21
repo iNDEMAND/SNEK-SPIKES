@@ -1,0 +1,73 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 55px;
+  padding: 0 24px;
+  background-color: var(--bg-color-dk);
+}
+
+nav section {
+  background-color: var(--bg-color-dk);
+  display: flex;
+  align-items: center;
+}
+
+#navTitle {
+  background-color: var(--bg-color-dk);
+  color: var(--text-color-lt);
+}
+
+nav section h3 {
+  margin-left: 16px;
+  color: var(--accent-color);
+}
+
+nav section h3:hover,
+#navTitle:hover {
+  color: var(--primary-color);
+  border-bottom: 1px solid var(--primary-color);
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--text-color-lt);
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  background-color: var(--bg-color-dk);
+}
+
+nav ul li {
+  margin-left: 24px;
+  background-color: var(--bg-color-dk);
+  color: var(--text-color-lt);
+}
+
+nav ul li a {
+  text-decoration: none;
+  padding: 8px;
+  border-radius: 3px;
+  background-color: var(--bg-color-dk-accent);
+  color: var(--text-color-lt);
+}
+
+nav ul li a:hover,
+nav ul li button:hover {
+  background-color: var(--bg-color-dk-shade);
+  color: var(--accent-color);
+}
+
+nav ul li button {
+  padding: 5px 8px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#loggedInUser {
+  color: var(--primary-color);
+}
